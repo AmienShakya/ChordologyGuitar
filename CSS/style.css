@@ -1,0 +1,129 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: black;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("../Images/index.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+    background-position: center center;
+    background-size: cover; 
+
+}
+
+header{
+	 background-color: rgba(124,39,39,0.99);
+     left:0%;
+     height:90px;
+     width:100%;
+     top:0%;
+     align-items: center;
+     position: fixed;
+    }
+
+    header h1{
+    	    	 text-align: center; font-weight: bold; font-size: 80px;   font-family: 'Indie Flower', cursive; color: white;
+    }
+
+
+
+
+.Chord2{
+	 left:17%;
+     height:20px;
+     width:50%;
+     margin-top: 5%;
+     top:5%;
+     align-items: center;
+
+}
+
+
+
+
+.box{
+	display: flex;
+	width:100%;
+	flex-wrap: wrap ;
+	margin-top: 2%;
+	margin-left: 2%;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+
+.notice{
+	text-align: center;
+	margin-right: 10%;
+	margin-top: 2%;
+	background-color: rgba(0,0,0,0.3);
+
+}
+
+.box img{
+	height: 40vh;
+	width:20vw;
+	margin-left: 9%;
+
+}
+
+
+.lesson{
+
+	 background-color: rgba(0,0,0,0.3);
+	 height: 75vh;
+	 width:26vw;
+	 display: flex;
+	 align-self: center;
+	 flex-wrap: wrap;
+	 margin-top: 2%;
+	 margin-right: 7%;
+	 margin-bottom: 5%;
+}
+
+.content{
+	margin-left: 5%;
+	height: 35vh;
+	width: 25vw;
+	text-align: center;
+	color: white;
+	font-family: 'calibri';
+	margin-bottom: 2%;
+}
+
+.content p{
+	text-align: left;
+}
+
+
+
+@media(max-width: 1100px){
+	header{
+		height: 70px;
+		  }
+		  header h1{
+		  	font-size: 50px;
+		  }
+
+.Chord2{
+	height: 20px;
+}
+
+.box{
+	font-size: 16px;
+}
+
+.lesson{
+width: 50vw;
+margin-right: 50%;
+}
+.content{
+	width: 48vw;
+}
+
+}
