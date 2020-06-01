@@ -31,7 +31,7 @@ body{
     .imagebox{
         width:20%;
         background-color: rgba(51,51,53,0.7);
-     
+       
         flex-direction: column;
         margin-left:4%;
         margin-top: 5%;
@@ -47,7 +47,7 @@ body{
 
 
   .imagebox img{
- 
+  
   	height: 80%;
     width: 80%; 
     padding:2%;
